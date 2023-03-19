@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Description: Prints combination of two numbers
+ )* Description: Prints combination of two numbers
  * Return: Always 0(sucess)
  */
 int main(void)
@@ -12,20 +12,19 @@ int main(void)
 	{
 		for (j = '0'; j <= '9'; j++)
 		{
-			for(k = '0'; k <= '9'; k++)
+			for (k = '0'; k <= '9'; k++)
 			{
-
-				if (i < j) && (j<k)
+				if (i < j && j < k)
 				{
 					putchar(i);
 					putchar(j);
 					putchar(k);
-				if (i != '7' && j != '8' && k != '9')
-				{
+				}
+					if (i != '7')
+					{
 					putchar(',');
 					putchar(' ');
-				}
-			}
+					}
 			}
 		}
 	}
