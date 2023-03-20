@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main -enrty point
- * return -always 0
+ * main - Enty point
+ * Return: Always 0 (success)
  */
 int main(void)
 {
