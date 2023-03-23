@@ -3,9 +3,9 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* main - program starting point
-* Description: Print whether a number is positive, negative or zero
-* Return: 0
+* positive_or_negative - Start of function
+* @i: Integer to check
+* Return: void
 */
 void positive_or_negative(int i)
 {
