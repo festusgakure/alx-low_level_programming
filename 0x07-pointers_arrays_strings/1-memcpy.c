@@ -7,13 +7,17 @@
  * @n: Bytes to be coppied from scr to dest
  * Return: The destination memory
  */
+
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	unsigned int i;
 
-	for (i = 0; i <= n; i++)
+	i = 0;
+	while (n > 0)
 	{
 		dest[i] = src[i];
+		n--;
+		i++;
 	}
 	return (dest);
 }
