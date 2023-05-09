@@ -2,7 +2,7 @@
 
 /**
  * read_textfile - Reads a text file and prints it to the POSIX standard output
- * @filename: NamvdQ 
+ * @filename: NamvdQ
  * Q[NHVE
  * @letters: The number of letters it should read and print
  *
