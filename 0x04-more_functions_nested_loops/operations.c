@@ -1,6 +1,12 @@
-// operations.c
-
-// Function 1: Add two integers
+#include <stdio.h>
+/**
+ * main - check the code
+ *
+ * Return: 1.
+ */
+int main(void)
+{
+//Function 1: Add two integers
 int add(int a, int b) {
     return a + b;
 }
@@ -24,4 +30,4 @@ int div(int a, int b) {
 int mod(int a, int b) {
     return a % b;
 }
-
+}
